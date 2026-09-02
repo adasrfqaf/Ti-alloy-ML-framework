@@ -1,0 +1,5 @@
+SMOTER_Config,GBDT,LGBM,MLP,SVR
+10% both tails,0.9299,0.86,0.1747,0.8765
+20% both tails,0.9083,0.8238,0.7763,0.7555
+5% both tails,0.9212,0.8409,-0.2437,0.7066
+Original (No Aug),0.654,0.7717,-0.2755,0.6272

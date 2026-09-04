@@ -23,30 +23,37 @@ The framework integrates phase-stratified modeling, adaptive data augmentation, 
 ##  Repository Structure
 
 ```
-Ti-alloy-ML-framework/
+Ti‑alloy‑ML‑framework/
 ├── Unaugmented Dataset/          # Raw experimental data
 ├── Adaptive Dataset Augmentation/ # Augmented datasets
 ├── Global mixed training/        # Baseline global models
 ├── Material Screening/           # Candidate alloy screening scripts
 ├── experimental data figure/     # Visualization scripts
+├── results/                      # Auto‑generated outputs, model predictions (git‑ignored)
+├── figures/                      # Auto‑generated figure outputs (git‑ignored)
+├── requirements.txt              # Fixed‑version python dependencies
+├── LICENSE                       # MIT License
 └── README.md
 ```
 
-## 🚀 Getting Started
 
+## 🚀 Getting Started
 ### Prerequisites
-- Python 3.8+
-- Required packages: 
+- Python **3.11**
+- Required packages:
   - `numpy`, `pandas` – data manipulation
-  - `scikit-learn` – provides Random Forest (RF), Support Vector Regression (SVR), Multi-layer Perceptron (MLP), Gradient Boosting Decision Tree (GBDT), and PCA
+  - `scipy` – numerical computation
+  - `scikit‑learn` – provides Random Forest (RF), Support Vector Regression (SVR), Multi‑layer Perceptron (MLP), Gradient Boosting Decision Tree (GBDT), and PCA
   - `xgboost` – XGBoost model
-  - `lightgbm` – LightGBM model
   - `shap` – SHAP feature attribution
+  - `imbalanced‑learn`, `smogn` – implementations for data augmentation strategies
+
+> Note: Trained model files (`*.pkl`) will be generated locally after running scripts and are not tracked by Git.
 
 ### Installation
 ```bash
-git clone https://github.com/adasrfqaf/Ti-alloy-ML-framework.git
-cd Ti-alloy-ML-framework
+git clone https://github.com/adasrfqaf/Ti‑alloy‑ML‑framework.git
+cd Ti‑alloy‑ML‑framework
 pip install -r requirements.txt
 ```
 
@@ -66,19 +73,19 @@ Under the current dataset split, the test-set $R^2$ exceeds 0.93 for all three p
 If you use this code in your research, please cite:
 
 ```bibtex
-@software{Zhang_Ti-Alloy-ML-Framework_2026,
-  author = {Zhang, Yiming},
-  title = {Ti-Alloy-ML-Framework},
+@software{Peng_Ti‑Alloy‑ML‑Framework_2026,
+  author = {Peng, Qinghong},
+  title = {Ti‑Alloy‑ML‑Framework},
   version = {1.0.0},
-  date = {2026-09-02},
+  date = {2026‑09‑04},
   doi = {10.5281/zenodo.xxxxxxx},
-  url = {https://github.com/adasrfqaf/Ti-alloy-ML-framework}
+  url = {https://github.com/adasrfqaf/Ti‑alloy‑ML‑framework}
 }
 ```
 
 ##  License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License ‑ see the [LICENSE](LICENSE) file for details.
 
 ##  Acknowledgments
 

@@ -1,6 +1,6 @@
 # Ti-Alloy-ML-Framework
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22299875.svg)](https://doi.org/10.5281/zenodo.22299875)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > A machine learning framework for predicting hydrogen storage performance of Ti-based alloys from small experimental datasets.
@@ -73,13 +73,13 @@ Under the current dataset split, the test-set $R^2$ exceeds 0.93 for all three p
 If you use this code in your research, please cite:
 
 ```bibtex
-@software{Peng_Ti‑Alloy‑ML‑Framework_2026,
-  author = {Peng, Qinghong},
-  title = {Ti‑Alloy‑ML‑Framework},
+@software{Zhang_Ti-Alloy-ML-Framework_2026,
+  author = {Zhang, Yiming},
+  title = {Ti-Alloy-ML-Framework},
   version = {1.0.0},
-  date = {2026‑09‑04},
-  doi = {10.5281/zenodo.xxxxxxx},
-  url = {https://github.com/adasrfqaf/Ti‑alloy‑ML‑framework}
+  year = {2026},
+  doi = {10.5281/zenodo.22299875},
+  url = {https://github.com/adasrfqaf/Ti-alloy-ML-framework}
 }
 ```
 

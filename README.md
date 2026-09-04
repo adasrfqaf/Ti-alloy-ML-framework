@@ -36,7 +36,12 @@ Ti-alloy-ML-framework/
 
 ### Prerequisites
 - Python 3.8+
-- Required packages: `numpy`, `pandas`, `scikit-learn`, `xgboost`, `lightgbm`, `shap`
+- Required packages: 
+  - `numpy`, `pandas` – data manipulation
+  - `scikit-learn` – provides Random Forest (RF), Support Vector Regression (SVR), Multi-layer Perceptron (MLP), Gradient Boosting Decision Tree (GBDT), and PCA
+  - `xgboost` – XGBoost model
+  - `lightgbm` – LightGBM model
+  - `shap` – SHAP feature attribution
 
 ### Installation
 ```bash
